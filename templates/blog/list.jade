@@ -204,17 +204,18 @@ block body
                                 .time
                                     - blocktrans with countdown=contest.time_before_start|as_countdown
                                         | Starting in {{ countdown }}.
-            .blog-sidebox.sidebox
-                h3 {% trans "Comment stream" %} #[i.fa.fa-comments]
-                .sidebox-content
-                    ul: for comment in comments
-                        li
-                            span.poster(class='rating {{ comment.author.rating|rating_class }} {{ comment.author.display_rank }}', style='padding-left:0.25em')
-                                a(href='{% url "user_page" comment.author.user.username %}')= comment.author.user.username
-                            | &#32;&rarr; #[a(href='{{comment.link}}#comment-{{comment.id}}')= comment.page_title]
-                    span.rssatom
-                        a(href='{% url "comment_rss" %}') #[span: i.fa.fa-rss] RSS
-                        | / #[a(href='{% url "comment_atom" %}') Atom]
+            if false
+                .blog-sidebox.sidebox
+                    h3 {% trans "Comment stream" %} #[i.fa.fa-comments]
+                    .sidebox-content
+                        ul: for comment in comments
+                            li
+                                span.poster(class='rating {{ comment.author.rating|rating_class }} {{ comment.author.display_rank }}', style='padding-left:0.25em')
+                                    a(href='{% url "user_page" comment.author.user.username %}')= comment.author.user.username
+                                | &#32;&rarr; #[a(href='{{comment.link}}#comment-{{comment.id}}')= comment.page_title]
+                        span.rssatom
+                            a(href='{% url "comment_rss" %}') #[span: i.fa.fa-rss] RSS
+                            | / #[a(href='{% url "comment_atom" %}') Atom]
             .blog-sidebox.sidebox
                 h3 {% trans "New problems" %} #[i.fa.fa-puzzle-piece]
                 .sidebox-content
