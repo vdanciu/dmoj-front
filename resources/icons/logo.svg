@@ -5,11 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   id="svg2"
-   viewBox="0 0 800.00002 450.00001"
+   width="800"
    height="450"
-   width="800">
+   viewBox="0 0 800.00002 450.00001"
+   id="svg2"
+   version="1.1">
   <defs
      id="defs4" />
   <metadata
@@ -25,32 +25,32 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-602.36216)"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-602.36216)">
     <path
-       id="path4136"
-       d="M 243.8848,896.23791 A 120.85,120.85 0 0 1 188.23632,909.8127 120.85,120.85 0 0 1 67.386322,788.96271 a 120.85,120.85 0 0 1 120.849998,-120.85 120.85,120.85 0 0 1 55.53808,13.5176"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#505050;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e8e8e8;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.8848,888.23791 A 120.85,120.85 0 0 1 188.23632,901.8127 120.85,120.85 0 0 1 67.386322,780.96271 a 120.85,120.85 0 0 1 120.849998,-120.85 120.85,120.85 0 0 1 55.53808,13.5176"
+       id="path4136" />
     <path
-       d=""
-       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4138"
-       r="120.85"
+       cx="270.21582"
        cy="190.19701"
-       cx="270.21582" />
-    <circle
-       cx="399.62219"
-       cy="788.96271"
        r="120.85"
+       id="path4138"
+       style="opacity:0.7;fill:none;fill-opacity:1;stroke:#000000;stroke-width:25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e8e8e8;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle4142"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#505050;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       r="120.85"
+       cy="780.96271"
+       cx="399.62219" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#505050;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 558.25657,910.38005 c 85.95305,0.4428 34.25886,-0.56735 53.62817,-0.56735 66.74361,0 120.84999,-54.10638 120.85,-120.84999 0,-66.74361 -54.10639,-120.85 -120.85,-120.85 -19.32727,0 -38.37265,4.63552 -55.53808,13.5176"
-       id="path4160" />
+       id="path4160"
+       d="m 558.25657,902.38005 c 85.95305,0.4428 34.25886,-0.56735 53.62817,-0.56735 66.74361,0 120.84999,-54.10638 120.85,-120.84999 0,-66.74361 -54.10639,-120.85 -120.85,-120.85 -19.32727,0 -38.37265,4.63552 -55.53808,13.5176"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e8e8e8;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       id="path4162"
-       d="m 549.34043,910.68609 180.8173,0 0,79.35531 -656.756488,0"
-       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#505050;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-rule:evenodd;stroke:#e8e8e8;stroke-width:50;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 549.34043,902.68609 180.8173,0 0,89.35531 -656.756488,0"
+       id="path4162" />
   </g>
 </svg>
