@@ -1,4 +1,5 @@
 @charset "UTF-8"
+@import url('https://fonts.googleapis.com/css?family=Roboto')
 
 @-ms-viewport
   min-width: 480px
@@ -13,11 +14,11 @@
   max-width: device-width
 
 a
-  color: #1958c1
+  color: #484848
   &:hover
-    color: #0645ad
+    color: #2ac1f1
   &:active
-    color: #faa700
+    color: #2ac1f1
 
 img
   max-width: 100%
@@ -84,9 +85,10 @@ body
   max-width: 107em
   font-size: 14px
   line-height: 1.231
-  background: #f7f7f7
-  font-family: 'Segoe UI', 'Lucida Grande', Arial, sans-serif
-  color: #000
+  background: #FFFFFF
+  font-family: 'Roboto', 'Lucida Grande', Arial, sans-serif
+  letter-spacing: 0.05em
+  color: #484848
   height: 100%
 
 .unselectable
@@ -159,7 +161,7 @@ header
         display: inline
         margin: 2px 6px 0 5px
       & > span
-        color: #eee
+        color: #484848
         vertical-align: middle
         display: inline
         margin-top: 11px
@@ -167,11 +169,11 @@ header
         padding: 0px
 
 #nav-shadow
-  height: 3px
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent)
+  height: 2px
+  background: linear-gradient(#d8d8d8, transparent)
 
 #nav-container
-  background: #3B3B3B
+  background: #FFFFFF
   // opacity: 0.77
   // filter: alpha(opacity=77)
   height: 100%
@@ -200,8 +202,9 @@ nav
     background: transparent
     li
       display: inline-block
-      color: #FFF
+      color: #484848
       text-transform: uppercase
+      font-size: 0.88em
       position: relative
       &.home-nav-element a
         padding: 0
@@ -214,18 +217,16 @@ nav
         display: inline-block
         text-decoration: none
         vertical-align: middle
-        color: #FFF
+        color: #484848
         padding: 13px 7px
         height: 18px
         &:link
-          color: #FFF
+          color: #484848
         &:hover
-          color: #FFF
-          background: rgba(255, 255, 255, 0.25)
+          color: #2ac1f1
           margin: 0
         &.active
-          color: #FFF
-          background: #2980b9
+          color: #2ac1f1
         .nav-expand
           display: none
       ul
@@ -234,7 +235,7 @@ nav
         left: 5px
         display: none
         color: #fff
-        background: #3B3B3B
+        background: #6d6e71
         li
           &:first-child
             a.active
@@ -386,8 +387,6 @@ noscript #noscript
   max-width: 1300px
   position: relative
   margin: 0px auto
-  border-right: 1px solid #CCC
-  border-left: 1px solid #CCC
   background: white
 // border-bottom: 1px solid rgb(204, 204, 204)
 // border-bottom-left-radius: 4px
@@ -444,7 +443,7 @@ math
     display: block
     line-height: 26px
     font-size: 2em
-    color: #FFF
+    color: #484848
     padding: 0 .25em
     margin: 4px .25em
     white-space: nowrap
@@ -460,7 +459,8 @@ math
     border-left: 4px solid #2980B9
     position: fixed
     top: 36px
-    background: #3B3B3B
+    color: #FFFFFF
+    background: #6d6e71
     bottom: 0
     width: 8em
     left: 0

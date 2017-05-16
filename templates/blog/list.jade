@@ -20,7 +20,7 @@ block media
     style.
         .sidebox h3 {
             margin: 0 -5px;
-            background: #3b3b3b;
+            background: #2ac1f1;
             border-radius: 4px 4px 0px 0px;
             color: white;
             padding-top: 2px;
@@ -46,7 +46,7 @@ block media
         }
 
         .sidebox-content {
-            border: 1px solid #9D9D9D;
+            border: 0px solid #9D9D9D;
             border-top: none;
             margin: 0 -5px;
             padding: 0 0.5em;
@@ -55,11 +55,11 @@ block media
         }
 
         .post {
-            margin: 0 1.4em;
+            margin: 0;
         }
 
         .post:first-child {
-            margin-top: 0.6em;
+            margin-top: 0em;
         }
 
         .comment-count {
@@ -134,7 +134,6 @@ block body
 
     #blog-container
         .blog-content.sidebox
-            h3 {% trans "News" %} #[i.fa.fa-terminal]
             .sidebox-content
                 each post in posts
                     section(class=('sticky post' if post.sticky else 'post'))
